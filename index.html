@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; text-align: center;
+      padding-bottom: 15px;
+    }
+
+    .attribution a { 
+      color: hsl(215, 51%, 70%);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="card-bg">
+      <div class="card">
+        <img id="nft-picture" src="images/image-equilibrium.jpg" alt="nft-picture">
+
+        <div class="text-container">
+          <h2>Equilibrium #3429</h2>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+
+          <div class="price-container">
+            <div class="eth">
+              <img id="eth-icon" src="images/icon-ethereum.svg" alt="eth-icon">
+              <h4>0.041 ETH</h4>
+            </div>
+            <div class="clock">
+              <img id="clock-icon" src="images/icon-clock.svg" alt="clock-icon">
+              <h5>3 days left</h5>
+            </div>
+          </div>
+          
+          <div class="profile">
+            <img src="images/image-avatar.png" alt="profile-picture">
+            <h5>Creation of <a href="#">Jules Wyvern</a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  
+  <div class="attribution" style="background-color: hsl(217, 54%, 11%); color: white;">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ryanindrjaya">Ryan Indrajaya</a>.
+  </div>
+</body>
+</html>
